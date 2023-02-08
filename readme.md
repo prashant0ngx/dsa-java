@@ -1,4 +1,4 @@
-# Data Structure and Alorithm in Java
+# Data Structure and Algorithm with Java
 
 ## 1. LinkedList
    - Singly Linked List
