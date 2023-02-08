@@ -131,26 +131,7 @@
                 }
             }
 
-            public static void main(String[] args) {
-                SLL s1=new SLL();
-                s1.addFirst(10);
-                s1.addFirst(20);
-                s1.addFirst(25);
-                
-                s1.addLast(30);
-                s1.addLast(40);
-
-                s1.addAtSpecificPosition(50, 2);
-                s1.addAtSpecificPosition(60, 4);
-                s1.deleteFirst();
-                s1.deleteLast();
-                s1.deleteAtSpecificPosition(3);
-
-                s1.display();
-                s1.searchItem(30);
-
-
-            }
+            //main function write yourself
         } 
         ```
 
