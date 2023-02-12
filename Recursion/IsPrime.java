@@ -2,7 +2,7 @@ package Recursion;
 
 //Recursive function to check if a number is prime or not
 
-public class Prime {
+class Prime {
 
     public static boolean isPrime(int n, int i) {
         if (n <= 2) {
