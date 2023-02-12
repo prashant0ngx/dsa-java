@@ -4,7 +4,12 @@ package Queue;
  * @author Prashant
  */
 
+
+
 //Circular Queue
+/*
+Circular Queue Defination: A circular queue is 
+ */
 public class CircularQueue {
     int front;
     int rear;
@@ -62,8 +67,7 @@ public class CircularQueue {
         cq.enqueue(10);
         cq.enqueue(20);
         cq.enqueue(30);
-        cq.enqueue(40);
-        cq.enqueue(50);
+
         cq.display();
         System.out.println();
         cq.dequeue();
@@ -72,7 +76,7 @@ public class CircularQueue {
         System.out.println();
         cq.enqueue(60);
         cq.display();
-        cq.enqueue(21);
+      
     }
     
 

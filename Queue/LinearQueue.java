@@ -4,6 +4,13 @@ package Queue;
  * @author Prashant
  */
 //Linear Queue
+/*
+Queue is a linear data structure which follows a particular order in which the operations are performed.
+The order is First In First Out (FIFO). A good example of queue is any queue of consumers for a resource 
+where the consumer that came first is served first. The difference between stacks and queues is in removing.
+In a stack we remove the item the most recently added; in a queue, we remove the item the least recently added.
+
+*/ 
 public class LinearQueue {
     int front;
     int rear;
@@ -68,19 +75,12 @@ public class LinearQueue {
         LinearQueue lq=new LinearQueue(5);
         lq.enqueue(10);
         lq.enqueue(20);
-        lq.enqueue(30);
-        lq.enqueue(40);
-        lq.enqueue(50);
         lq.display();
-        System.out.println();
         lq.dequeue();
         lq.display();
-        System.out.println();
         lq.enqueue(60);
         lq.display();
-        System.out.println();
-        lq.pdequeue();
-        lq.display();
+      
     }
     
     
